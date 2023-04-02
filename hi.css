@@ -1,0 +1,16 @@
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:aliceblue;
+    color:black;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
